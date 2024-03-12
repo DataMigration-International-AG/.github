@@ -1,8 +1,8 @@
 ## Describe your changes briefly
 
-## Issue ticket Number with link
+## Issue ticket number with link
 
-## Databse changes
+## Database changes
 
 ## Pre-Review checklist
 - [ ] I reviewed my code
