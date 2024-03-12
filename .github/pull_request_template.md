@@ -1,10 +1,11 @@
-## Beschreibe kurz deine Änderungen
+## Describe your changes briefly
 
-## Issue ticket Nummer & link
+## Issue ticket Number with link
 
-## Datenbankänderungen
+## Databse changes
 
-## Checkliste bevor man ein Review requested
-- [ ] Ich habe meinen Code reviewed
-- [ ] Der Code ist lauffähig
-- [ ] Ich habe den Code auch mit Edge Cases getestet
+## Pre-Review checklist
+- [ ] I reviewed my code
+- [ ] The code is runnable
+- [ ] I tested the code with edge cases
+- [ ] I wrote tests for my code
