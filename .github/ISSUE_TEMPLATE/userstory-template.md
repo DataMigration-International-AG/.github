@@ -7,13 +7,11 @@ assignees: ''
 
 ---
 
-### Allgemeine Beschreibung
+### Description
 Hier Beschreibung eintragen
 
-### Akzeptanzkriterien
+### Acceptance criteria
 1. a
-2. b
 
 ### Tasks
 - [ ] 1
-- [ ] 2
