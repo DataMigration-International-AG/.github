@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 ### Description
-Hier Beschreibung eintragen
+Enter your description here
 
 ### Acceptance criteria
 1. a
