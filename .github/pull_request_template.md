@@ -1,7 +1,9 @@
 ## Describe your changes briefly
 
 ## Issue ticket number with link
+
 closes #TICKET_ID
+
 ## Database changes
 
 ## Pre-Review checklist
