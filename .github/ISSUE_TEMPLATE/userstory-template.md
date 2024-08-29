@@ -7,11 +7,11 @@ assignees: ''
 
 ---
 
-### Description
+## Description
 Enter your description here
 
-### Acceptance criteria
+## Acceptance criteria
 1. a
 
-### Tasks
+## Tasks
 - [ ] 1
