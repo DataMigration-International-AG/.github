@@ -11,7 +11,7 @@ body:
     options:
     - label: I have searched the existing issues
       required: true
-- type: Dropdown
+- type: dropdown
   attributes:
     label: Product
     options: ['OCC', 'IMP', 'JDT', 'JBOD', 'BOS', 'AI']
