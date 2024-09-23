@@ -15,11 +15,7 @@ body:
   attributes:
     label: Product
     options: ['OCC', 'IMP', 'JDT', 'JBOD', 'BOS', 'AI']
-    description: |
-      examples:
-        - **IMP**
-        - **JDT**
-        - **JBOD**
+    description: The product you what the new feature in
   validations:
     required: true
 - type: textarea
