@@ -3,7 +3,7 @@ name: Delivery Feature Request Template
 about: Template for Feature Request from Delivery
 title: ''
 labels: ''
-assignees: ''
+assignees: 'pesc4jvis,thomasfailer'
 
 ---
 
