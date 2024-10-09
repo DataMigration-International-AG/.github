@@ -6,14 +6,25 @@ labels: ''
 assignees: ''
 
 ---
+## Story
 
-## Description
+As a USER who PRECONDITIONS, I want to DO_THING so I can ACCOMPLISH_GOAL.
 
-Enter your description here
 
-## Acceptance criteria
+## Acceptance Criteria
 
 1. a
+2. b
+
+
+## Assets
+
+- Mockup: 
+
+
+## NOTES
+
+-
 
 ## Tasks
 
