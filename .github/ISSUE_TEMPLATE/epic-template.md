@@ -15,9 +15,6 @@ _Introduction_
 ### Design and specification 📔
 
 - [ ] Design
-- [ ] Docs plan
-- [ ] Identify preview customers
-- [ ] Identify QA checks
 
 ### Engineering ⚙️
 
