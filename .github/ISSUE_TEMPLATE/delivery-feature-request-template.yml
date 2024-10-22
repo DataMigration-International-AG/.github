@@ -14,7 +14,7 @@ body:
 - type: dropdown
   attributes:
     label: Product
-    options: ['OCC', 'IMP', 'JDT', 'JBOD', 'BOS', 'AI']
+    options: ['OCC', 'IMP', 'JDT', 'JBOD', 'BOS', 'AI', 'RM']
     description: The product you what the new feature in
   validations:
     required: true
