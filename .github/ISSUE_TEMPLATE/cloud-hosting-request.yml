@@ -14,7 +14,7 @@ body:
     attributes:
       label: Username
       description: Your user login or requester's identifier
-      placeholder: FirstName.Lastname
+      placeholder: "firstname.lastname"
     validations:
       required: true
 
@@ -23,7 +23,7 @@ body:
     attributes:
       label: Role
       description: Role of the requester
-      placeholder: order_processor
+      placeholder: "order_processor"
     validations:
       required: true
 
@@ -31,7 +31,7 @@ body:
     id: instance
     attributes:
       label: Instance Name
-      placeholder: R-AZ00039
+      placeholder: "R-AZ#####"
     validations:
       required: true
 
@@ -39,7 +39,7 @@ body:
     id: customer
     attributes:
       label: Customer
-      placeholder: Implenia AG (0000010353)
+      placeholder: "Customer (00000#####)"
     validations:
       required: true
 
@@ -48,10 +48,10 @@ body:
     attributes:
       label: Cloud Provider
       options:
-        - AZURE
-        - AWS
-        - GCP
-        - Other
+        - "AZURE"
+        - "AWS"
+        - "GCP"
+        - "Other"
     validations:
       required: true
 
@@ -59,7 +59,7 @@ body:
     id: cloudtype
     attributes:
       label: Cloud Type
-      placeholder: JiVS private cloud
+      placeholder: "JiVS private cloud"
     validations:
       required: false
 
@@ -67,7 +67,7 @@ body:
     id: version
     attributes:
       label: Version
-      placeholder: JiVS IMP 11
+      placeholder: "JiVS IMP 11"
     validations:
       required: true
 
@@ -75,7 +75,7 @@ body:
     id: region
     attributes:
       label: Region
-      placeholder: CH
+      placeholder: "CH"
     validations:
       required: true
 
@@ -83,7 +83,7 @@ body:
     id: volume
     attributes:
       label: Data Volume (GB)
-      placeholder: 200
+      placeholder: "200"
     validations:
       required: true
 
@@ -91,7 +91,7 @@ body:
     id: prod_date
     attributes:
       label: Desired Productive Date
-      placeholder: 2025/04/30
+      placeholder: "2025/04/30"
     validations:
       required: true
 
@@ -99,7 +99,7 @@ body:
     id: requested_at
     attributes:
       label: Requested at
-      placeholder: 2025/04/15 13:10:01
+      placeholder: "yyyy/mm/dd hh:mm:ss"
     validations:
       required: true
 
@@ -107,7 +107,7 @@ body:
     id: requested_from
     attributes:
       label: Requested from
-      placeholder: paul.hipsagh
+      placeholder: "firstname.lastname"
     validations:
       required: true
 
@@ -115,7 +115,7 @@ body:
     id: functional
     attributes:
       label: Functional Expansions
-      placeholder: Describe any functional customizations or expansions
+      placeholder: "Describe any functional customizations or expansions"
     validations:
       required: false
 
@@ -124,8 +124,8 @@ body:
     attributes:
       label: Should it be monitored?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
 
@@ -134,10 +134,10 @@ body:
     attributes:
       label: Status
       options:
-        - NEW
-        - APPROVED
-        - IN PROGRESS
-        - COMPLETED
+        - "NEW"
+        - "APPROVED"
+        - "IN PROGRESS"
+        - "COMPLETED"
     validations:
       required: true
 
@@ -145,6 +145,6 @@ body:
     id: options
     attributes:
       label: Additional Options or Comments
-      placeholder: Add any extra info or custom requirements
+      placeholder: "Add any extra info or custom requirements"
     validations:
       required: false
