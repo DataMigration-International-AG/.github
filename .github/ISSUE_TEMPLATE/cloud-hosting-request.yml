@@ -13,8 +13,8 @@ body:
     id: username
     attributes:
       label: Username
-      description: Your user login or requester's identifier
-      placeholder: "firstname.lastname"
+      description: Your user login
+      placeholder: "${{ github.actor }}"
     validations:
       required: true
 
@@ -23,7 +23,7 @@ body:
     attributes:
       label: Role
       description: Role of the requester
-      placeholder: "order_processor"
+      placeholder: "Project Manager"
     validations:
       required: true
 
