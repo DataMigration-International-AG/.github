@@ -1,0 +1,150 @@
+name: 🌩️ New Cloud Hosting Request
+description: Request a new cloud hosting instance for a customer
+title: "[Cloud Request] <Instance Name> - <Customer>"
+labels: ["cloud-request", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📥 Cloud System Request Form
+        Please fill in the details below to request a new cloud instance.
+
+  - type: input
+    id: username
+    attributes:
+      label: Username
+      description: Your user login or requester's identifier
+      placeholder: FirstName.Lastname
+    validations:
+      required: true
+
+  - type: input
+    id: role
+    attributes:
+      label: Role
+      description: Role of the requester
+      placeholder: order_processor
+    validations:
+      required: true
+
+  - type: input
+    id: instance
+    attributes:
+      label: Instance Name
+      placeholder: R-AZ00039
+    validations:
+      required: true
+
+  - type: input
+    id: customer
+    attributes:
+      label: Customer
+      placeholder: Implenia AG (0000010353)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: provider
+    attributes:
+      label: Cloud Provider
+      options:
+        - AZURE
+        - AWS
+        - GCP
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: cloudtype
+    attributes:
+      label: Cloud Type
+      placeholder: JiVS private cloud
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: JiVS IMP 11
+    validations:
+      required: true
+
+  - type: input
+    id: region
+    attributes:
+      label: Region
+      placeholder: CH
+    validations:
+      required: true
+
+  - type: input
+    id: volume
+    attributes:
+      label: Data Volume (GB)
+      placeholder: 200
+    validations:
+      required: true
+
+  - type: input
+    id: prod_date
+    attributes:
+      label: Desired Productive Date
+      placeholder: 2025/04/30
+    validations:
+      required: true
+
+  - type: input
+    id: requested_at
+    attributes:
+      label: Requested at
+      placeholder: 2025/04/15 13:10:01
+    validations:
+      required: true
+
+  - type: input
+    id: requested_from
+    attributes:
+      label: Requested from
+      placeholder: paul.hipsagh
+    validations:
+      required: true
+
+  - type: textarea
+    id: functional
+    attributes:
+      label: Functional Expansions
+      placeholder: Describe any functional customizations or expansions
+    validations:
+      required: false
+
+  - type: dropdown
+    id: monitored
+    attributes:
+      label: Should it be monitored?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - NEW
+        - APPROVED
+        - IN PROGRESS
+        - COMPLETED
+    validations:
+      required: true
+
+  - type: textarea
+    id: options
+    attributes:
+      label: Additional Options or Comments
+      placeholder: Add any extra info or custom requirements
+    validations:
+      required: false
