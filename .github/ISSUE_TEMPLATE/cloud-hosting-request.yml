@@ -83,7 +83,7 @@ body:
     id: volume
     attributes:
       label: Data Volume (GB)
-      placeholder: "200"
+      placeholder: "1000"
     validations:
       required: true
 
