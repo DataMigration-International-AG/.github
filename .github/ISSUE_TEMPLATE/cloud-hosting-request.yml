@@ -91,7 +91,7 @@ body:
     id: prod_date
     attributes:
       label: Desired Productive Date
-      placeholder: "2025/04/30"
+      placeholder: "yyyy/mm/dd"
     validations:
       required: true
 
