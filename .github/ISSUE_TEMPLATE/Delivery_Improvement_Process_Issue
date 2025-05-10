@@ -1,0 +1,144 @@
+name: 🛠️ Delivery Improvement Process Issue
+description: Report a process issue that affects delivery efficiency, quality, or consistency
+title: "[Improvement] <Short Summary of the Issue>"
+labels: ["process-improvement", "triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🚀 Delivery Improvement Process Issue Form
+        Please complete the form to help us analyze and improve our delivery process. Required fields are marked with an asterisk (*).
+
+  - type: input
+    id: issue_title
+    attributes:
+      label: Issue Title *
+      description: A short, clear title describing the issue.
+      placeholder: "Example: Handoff delays between onboarding and delivery teams"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue Type *
+      description: What kind of delivery process issue is this?
+      options:
+        - Bottleneck
+        - Communication Gap
+        - Handoff Problem
+        - Resource Allocation
+        - Time Management
+        - Quality Control
+        - Documentation Issue
+        - Training Need
+        - Compliance/Regulatory
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority *
+      options:
+        - Critical (Blocking deliveries, causing immediate business impact)
+        - High (Significantly impacting efficiency, quality, or timelines)
+        - Medium (Noticeably affecting processes but with workarounds available)
+        - Low (Minor inconvenience or optimization opportunity)
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_process
+    attributes:
+      label: Current Process Description
+      description: Describe the current process. Be specific about how it works today.
+
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: Issue Description *
+      description: |
+        Describe the issue in detail, including:
+        - When/where it occurs in the process
+        - Frequency of occurrence
+        - Who it affects
+        - Impact (e.g. delays, rework, quality, cost)
+        - Temporary workarounds in place
+    validations:
+      required: true
+
+  - type: textarea
+    id: root_cause
+    attributes:
+      label: Root Cause Analysis (Optional)
+      description: Provide possible root causes (if known).
+
+  - type: textarea
+    id: business_impact
+    attributes:
+      label: Business Impact
+      description: Describe the measurable impact on timelines, quality, costs, team workload, or customer satisfaction.
+
+  - type: textarea
+    id: proposed_solutions
+    attributes:
+      label: Proposed Solution(s)
+      description: Suggest any ideas for resolving this issue. Include pros/cons if helpful.
+
+  - type: textarea
+    id: success_metrics
+    attributes:
+      label: Success Metrics
+      description: How will we measure improvement (e.g., % time saved, defect reduction)?
+
+  - type: textarea
+    id: stakeholders
+    attributes:
+      label: Stakeholders
+      description: List relevant stakeholders such as process owners, impacted teams, and decision makers.
+
+  - type: textarea
+    id: related_docs
+    attributes:
+      label: Related Documentation
+      description: Add links to SOPs, issue history, or documentation related to this process.
+
+  - type: input
+    id: date_identified
+    attributes:
+      label: Date Identified
+      placeholder: "YYYY-MM-DD"
+
+  - type: input
+    id: investigation_deadline
+    attributes:
+      label: Investigation Deadline
+      placeholder: "YYYY-MM-DD"
+
+  - type: input
+    id: proposal_deadline
+    attributes:
+      label: Solution Proposal Deadline
+      placeholder: "YYYY-MM-DD"
+
+  - type: input
+    id: implementation_target
+    attributes:
+      label: Implementation Target Date
+      placeholder: "YYYY-MM-DD"
+
+  - type: input
+    id: review_date
+    attributes:
+      label: Review Date
+      placeholder: "YYYY-MM-DD"
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes & Updates
+      description: Use this section to log progress, discoveries, or decisions.
