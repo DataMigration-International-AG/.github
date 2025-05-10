@@ -1,0 +1,157 @@
+name: "Delivery Improvement Process Issue"
+description: "Submit a delivery-related process issue to support improvement initiatives."
+title: "[TITLE] - [Short Description]"
+labels: [process-improvement, triage]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Delivery Improvement Process Issue Form
+        Please fill out the form below to report a delivery-related process issue. Fields marked with * are required.
+
+  - type: input
+    id: issue_title
+    attributes:
+      label: Issue Title
+      description: Provide a concise, descriptive title that clearly identifies the process issue.
+      placeholder: "Example: Delays in client onboarding handoff"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue Type
+      options:
+        - Bottleneck
+        - Communication Gap
+        - Handoff Problem
+        - Resource Allocation
+        - Time Management
+        - Quality Control
+        - Documentation Issue
+        - Training Need
+        - Compliance/Regulatory
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Critical (Blocking deliveries, causing immediate business impact)
+        - High (Significantly impacting efficiency, quality, or timelines)
+        - Medium (Noticeably affecting processes but with workarounds available)
+        - Low (Minor inconvenience or optimization opportunity)
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_process
+    attributes:
+      label: Current Process Description
+      description: Describe the current process that needs improvement. Be specific about how it currently works.
+      placeholder: "Include the main steps, responsible teams, and tools involved."
+
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: Issue Description
+      description: >
+        Provide a detailed description of the problem, including:
+        - When and where it occurs in the delivery process
+        - How often it happens
+        - Who it affects
+        - Quantifiable impact (e.g., delays, errors, cost)
+        - Any temporary workarounds
+      placeholder: "Describe the issue context and consequences in detail."
+
+  - type: textarea
+    id: root_cause
+    attributes:
+      label: Root Cause Analysis (Optional)
+      description: List any potential root causes if known. Can be refined after investigation.
+      placeholder: |
+        1. 
+        2. 
+        3. 
+
+  - type: textarea
+    id: business_impact
+    attributes:
+      label: Business Impact
+      description: >
+        Describe the impact on delivery timelines, customer satisfaction, team productivity, quality, costs, or compliance.
+        Include metrics if possible.
+      placeholder: "E.g., Delays of 3+ days per handoff, 2 FTEs needed for rework, customer churn risk..."
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution(s)
+      description: Suggest one or more possible solutions. Include pros and cons if applicable.
+      placeholder: "E.g., Introduce a pre-handoff checklist to reduce back-and-forth."
+
+  - type: textarea
+    id: success_metrics
+    attributes:
+      label: Success Metrics
+      description: How will we measure success? List specific, quantifiable indicators of improvement.
+      placeholder: "E.g., Reduce delivery time by 20%, increase satisfaction rating to 4.5/5, eliminate rework steps"
+
+  - type: textarea
+    id: stakeholders
+    attributes:
+      label: Stakeholders
+      description: List key people involved or impacted.
+      placeholder: |
+        - Process Owner: [Name or Role]
+        - Affected Teams: [List]
+        - Decision Makers: [Approvers]
+        - Subject Matter Experts: [Consulted roles]
+
+  - type: textarea
+    id: related_docs
+    attributes:
+      label: Related Documentation
+      description: Add links to any related SOPs, prior tickets, diagrams, or documentation.
+
+  - type: input
+    id: date_identified
+    attributes:
+      label: Issue Identified Date
+      placeholder: "YYYY-MM-DD"
+
+  - type: input
+    id: investigation_deadline
+    attributes:
+      label: Investigation Deadline
+      placeholder: "YYYY-MM-DD"
+
+  - type: input
+    id: solution_proposal_deadline
+    attributes:
+      label: Solution Proposal Deadline
+      placeholder: "YYYY-MM-DD"
+
+  - type: input
+    id: implementation_target
+    attributes:
+      label: Implementation Target Date
+      placeholder: "YYYY-MM-DD"
+
+  - type: input
+    id: review_date
+    attributes:
+      label: Review Date
+      placeholder: "YYYY-MM-DD"
+
+  - type: textarea
+    id: notes_updates
+    attributes:
+      label: Notes & Updates
+      description: Keep a chronological log of discoveries, discussions, and decisions.
