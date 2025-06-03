@@ -2,7 +2,7 @@
 
 ## Issue ticket number with link
 
-closes #TICKET_ID
+closes #<ins>REPLACE_ME_WITH_TICKET_ID</ins>
 
 ## Database changes
 
