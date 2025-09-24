@@ -11,3 +11,4 @@ closes #REPLACE_ME_WITH_TICKET_ID
 - [ ] The code is runnable
 - [ ] I tested the code with edge cases
 - [ ] I wrote tests for my code
+- [ ] I tested touched app endpoints from ui (if applicable)
